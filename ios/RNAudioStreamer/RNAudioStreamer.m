@@ -10,7 +10,8 @@
 #import "DOUAudioStreamer.h"
 #import "RNAudioFileURL.h"
 #import <AVFoundation/AVFoundation.h>
-#import "RCTEventDispatcher.h"
+// #import "RCTEventDispatcher.h"
+#import <React/RCTEventDispatcher.h>
 
 // Player status
 static NSString *PLAYING = @"PLAYING";
